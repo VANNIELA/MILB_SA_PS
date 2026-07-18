@@ -1,0 +1,16 @@
+﻿metric,value
+scale_level,medium
+days,28
+demand_multiplier,1.5
+expected_customers_per_day,1350
+employees,70
+roles,6
+shifts_per_day,3
+coverage_cells,504
+total_C_min,1372
+total_C_opt,1655
+total_C_max,2284
+min_work_days,20
+max_work_days,24
+target_work_days,22
+approx_binary_variables,35280

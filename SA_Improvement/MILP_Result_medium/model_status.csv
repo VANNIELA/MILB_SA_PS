@@ -1,0 +1,16 @@
+﻿metric,value
+solver_status,Optimal
+objective_value,102483.0
+coverage_lower_used,C_opt
+cmax_hard,True
+soft_start_history,True
+soft_coverage,True
+total_C_min,1372
+total_C_opt_required,1655
+total_C_max,2284
+actual_assignments,1601
+total_overstaff_above_Copt,3
+total_shortage_to_Copt,57
+coverage_under_Cmin_cells,25
+coverage_under_Copt_cells,55
+coverage_over_Cmax_cells,0

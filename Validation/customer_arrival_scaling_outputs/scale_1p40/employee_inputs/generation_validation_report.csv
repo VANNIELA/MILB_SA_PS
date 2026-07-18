@@ -1,0 +1,16 @@
+﻿check,status,detail
+minimum_coverage_vs_contract_minimum,WARN,"C_min slots=759; employee minimum requirement=48*20=960. If WARN, C_min is only minimum service coverage and must not be used as final roster demand."
+milp_demand_contract_feasibility,PASS,48*20 <= 960 <= 48*24
+coverage_band_order,PASS,For every role and cell: C_min <= C_opt <= C_max
+skill_pool_RS,PASS,"qualified=5, target=5"
+skill_pool_DAS,PASS,"qualified=33, target=27"
+skill_pool_BLO,PASS,"qualified=8, target=6"
+skill_pool_FSTC,PASS,"qualified=12, target=5"
+skill_pool_DS,PASS,"qualified=8, target=5"
+skill_pool_SLS,PASS,"qualified=7, target=5"
+no_zero_skill_employee,PASS,zero_skill_count=0
+daily_availability_sufficiency_for_milp_demand,PASS,available qualified pool is sufficient
+preference_sanity,PASS,"rows=240, invalid_types=[]"
+history_previous_shift_values,PASS,"values=['OFF', 'S1', 'S2', 'S3']"
+incompatible_pairs_generated,INFO,pairs=2
+headcount_and_demand_summary,INFO,"total_min_coverage_slots=759, n_min_by_min_coverage_max_days=32, n_max_by_min_coverage_min_days=37, employees_initial=48, headcount_rule=max(ceil(n_min_by_min_coverage*(1+buffer)), minimum_employee_count), employees_generated=48, target_total_slots_C_opt=960, milp_demand_level_exported=opt"

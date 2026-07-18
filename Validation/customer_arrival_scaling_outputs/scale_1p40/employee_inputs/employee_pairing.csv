@@ -1,0 +1,4 @@
+﻿employee_i,employee_j,pair_type,priority,penalty
+E028,E045,incompatible,medium,100
+E004,E022,incompatible,medium,100
+E016,E019,preferred,low,20

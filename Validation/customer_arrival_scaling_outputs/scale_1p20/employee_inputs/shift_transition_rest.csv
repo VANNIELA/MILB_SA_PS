@@ -1,0 +1,10 @@
+﻿from_shift,to_shift_next_day,rest_hours,min_rest_hours,allowed,is_forbidden_successession
+S1,S1,16.0,12.0,1,0
+S1,S2,24.0,12.0,1,0
+S1,S3,32.0,12.0,1,0
+S2,S1,8.0,12.0,0,1
+S2,S2,16.0,12.0,1,0
+S2,S3,24.0,12.0,1,0
+S3,S1,0.0,12.0,0,1
+S3,S2,8.0,12.0,0,1
+S3,S3,16.0,12.0,1,0

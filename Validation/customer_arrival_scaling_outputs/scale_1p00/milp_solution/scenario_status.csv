@@ -1,0 +1,2 @@
+﻿solver_status,objective_value,total_required_assignments,actual_assignments,total_shortage,total_overstaff,milp_output_workbook,coverage_bands_used
+Optimal,7591.0,840,960,0,120,E:\NĂM 4\Capstone\Validation\customer_arrival_scaling_outputs\scale_1p00\milp_solution\milp_roster_output.xlsx,E:\NĂM 4\Capstone\Validation\customer_arrival_scaling_outputs\scale_1p00\employee_inputs\staffing_coverage_bands_long.csv

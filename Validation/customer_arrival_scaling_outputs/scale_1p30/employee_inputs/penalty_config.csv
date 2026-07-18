@@ -1,0 +1,14 @@
+﻿penalty_component,weight,meaning
+coverage_shortage,1000,Highest operational penalty
+target_shortage,300,Below target but above minimum
+overstaff,50,Labor efficiency penalty
+skill_violation,100000,Hard infeasibility
+availability_violation,100000,Hard infeasibility
+duplicate_assignment,100000,Hard infeasibility
+rest_violation,800,Fatigue and legal feasibility
+consecutive_night_violation,600,Fatigue control
+night_excess,300,Monthly night fairness
+workday_or_hour_violation,200,Contract balance
+preference_violation,10,Employee satisfaction
+incompatibility,100,Team compatibility
+standard_profile_change,3,Assignment stability

@@ -1,0 +1,7 @@
+﻿role,shift,preference_type,penalty,note
+DAS,S2,prefer,2,High dining-area workload during daytime
+DAS,S3,prefer,2,Evening table-turnover and cleaning support
+BLO,S2,prefer,2,Daytime buffet line support
+BLO,S3,prefer,2,Evening buffet replenishment
+DS,S2,prefer,1,Clean-ware recovery support
+RS,S1,avoid,1,Lower reception pressure at night

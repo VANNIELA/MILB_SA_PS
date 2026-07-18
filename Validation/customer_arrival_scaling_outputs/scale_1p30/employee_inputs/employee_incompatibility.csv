@@ -1,0 +1,3 @@
+﻿employee_i,employee_j,incompatibility_type,priority,penalty
+E028,E045,same_shift_block,medium,100
+E004,E022,same_shift_block,medium,100
